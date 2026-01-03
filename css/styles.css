@@ -159,7 +159,41 @@ button {
 
 .section-four {
   display: flex;
+  justify-content: center;
+  padding: 50px;
+  color: #f9faf8;
   flex: 1;
+}
+
+.call {
+  background-color: #3882f6;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.call-left {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  gap: 5px;
+}
+
+.call-left * {
+  margin: 0px;
+}
+
+.call-right {
+  display: flex;
+  justify-content: center;
+}
+
+.call-button {
+  border: solid #f9faf8;
+  margin: 20px 30px;
+  padding: 10px 20px;
 }
 
 .footer {
