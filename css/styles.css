@@ -1,19 +1,19 @@
 body {
   font-family: Roboto, sans-serif;
-  display: flex;
-  flex-direction: column;
   margin: 0;
 }
 
 .header,
 .content {
+  display: flex;
   background-color: #1f2937;
+  padding: auto 50px;
 }
 
 .header {
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
+  justify-content: space-between;
+  padding: 10px 120px;
+  padding-bottom: 60px;
 }
 
 .logo {
@@ -37,4 +37,55 @@ ul {
 li a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+.content {
+  flex-direction: column;
+  padding: 0 120px;
+  gap: 20px;
+}
+
+.section-one {
+  display: flex;
+  gap: 20px;
+}
+
+.section-one h1 {
+  display: flex;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.one-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.img-placeholder {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9faf8;
+  background-color: gray;
+  width: 400px;
+  height: 200px;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+button {
+  font-size: 18px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
